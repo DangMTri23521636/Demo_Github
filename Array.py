@@ -26,10 +26,6 @@ def sub_array(a):
         for i in range(0,len(a)-l+1):
             print(a[i:i+l])
 
-def is_sub_array(a,b):
-    for i in range(0,len(a)-len(b)+1):
-        if (b == a[i:i+len(b)]):
-            return True
-    return False
+
 
 
