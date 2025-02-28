@@ -26,6 +26,7 @@ def sub_array(a):
         for i in range(0,len(a)-l+1):
             print(a[i:i+l])
 
+print("Hello Word")
 
 
 
